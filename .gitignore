@@ -1,0 +1,10 @@
+.vscode
+data/
+ray_tune/
+__pycache__/
+src/checkpoint
+images/
+ray_results/
+models/
+*.DS_Store
+.idea/
