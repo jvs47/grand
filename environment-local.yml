@@ -1,0 +1,60 @@
+name: grand
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - blas=1.0
+  - ca-certificates=2022.10.11
+  - certifi=2022.9.24
+  - cycler=0.11.0
+  - freetype=2.12.1
+  #  - intel-openmp=2020.2
+  - h5py=3.7.0
+  - jpeg=9e
+  - jupyter=1.0.0
+  - kiwisolver=1.4.2
+  - lcms2=2.12
+  - libcxx=14.0.6
+  - libedit=3.1.20221030
+  - libffi=3.4.2
+  - libgfortran
+  - libllvm12
+  - libpng=1.6.37
+  - libtiff=4.4.0
+  - llvm-openmp=14.0.6
+  - lz4-c=1.9.4
+  - matplotlib=3.6.2
+  - matplotlib-base=3.6.2
+  - ncurses=6.3
+  - numpy-base=1.23.4
+  - openssl=1.1.1s
+  - pillow=9.2.0
+  - pip=22.3.1
+  - pyparsing=3.0.9
+  - python=3.8.15
+  - python-dateutil=2.8.2
+  - pytorch=1.13.0
+  - readline=8.2
+  - setuptools=65.5.0
+  - six=1.16.0
+  - sqlite=3.40.0
+  - wheel=0.37.1
+  - xz=5.2.8
+  - zlib=1.2.13
+  - zstd=1.5.2
+  - pip:
+      - jupyter==1.0.0
+      - networkx==2.8.8
+      - numba==0.56.4
+      - numpy==1.23.5
+      - ogb==1.3.5
+      - pandas==1.5.2
+      - pykeops==2.1
+      - pytest==7.2.0
+      - ray==2.1.0
+      - scikit-learn==1.2.0
+      - scipy==1.9.3
+      - tqdm==4.64.1
+      - torchdiffeq==0.2.3
+      - tabulate==0.9.0
+prefix: /opt/homebrew/Caskroom/miniconda/base/envs/grand
